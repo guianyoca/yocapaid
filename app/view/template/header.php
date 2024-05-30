@@ -128,13 +128,8 @@
         <nav class="mt-2">
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 
-          
-    
+
             <?php
-
-
-           
-
 
             if ($_SESSION['escritorio'] == 1) {
               echo '<li class="nav-item">
@@ -147,114 +142,6 @@
                     </li>';
             }
             ?>
-
-
-<?php
-            if ($_SESSION['informatica'] == 1) {
-              echo '<li class="nav-item">
-              <a href="#" class="nav-link active">
-                <i class="nav-icon fas fa-key">
-                </i>
-                <p>
-                  Informatica
-                  <i class="fas fa-angle-left right"></i>
-                  
-                </p>
-              </a>
-              <ul class="nav nav-treeview" style="display: none;">
-                <li class="nav-item">
-                  <a href="categoria.php" class="nav-link">
-                    <i class="far fa-check-circle nav-icon"></i>
-                    <p>Categorias</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="informatica.php" class="nav-link">
-                  <i class="far fa-check-circle nav-icon"></i>
-                    <p>Informatica</p>
-                  </a>
-                </li>
-              </ul>
-            </li>';
-            }
-            ?>
-
-
-
-<?php
-            if ($_SESSION['compras'] == 1) {
-              echo '<li class="nav-item">
-                    <a href="../view/compras.php" class="nav-link active">
-                    <i class="nav-icon fas fa-columns"></i>
-                      <p>
-                        Compras 
-                      </p>
-                    </a>
-                    </li>';
-            }
-            ?>
-<?php
-            if ($_SESSION['rrhh'] == 1) {
-              echo '<li class="nav-item">
-                    <a href="../view/rrhh.php" class="nav-link active">
-                    <i class="nav-icon fas fa-columns"></i>
-                      <p>
-                        Recursos Humanos 
-                      </p>
-                    </a>
-                    </li>';
-            }
-            ?>
-
-
-
-<?php
-            if ($_SESSION['acceso'] == 1) {
-              echo '<li class="nav-item">
-            <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-key">
-              </i>
-              <p>
-                Acceso
-                <i class="fas fa-angle-left right"></i>
-                
-              </p>
-            </a>
-            <ul class="nav nav-treeview" style="display: none;">
-              <li class="nav-item">
-                <a href="usuarios.php" class="nav-link">
-                  <i class="far fa-check-circle nav-icon"></i>
-                  <p>Usuarios</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="permisos.php" class="nav-link">
-                <i class="far fa-check-circle nav-icon"></i>
-                  <p>Permisos</p>
-                </a>
-              </li>
-            </ul>
-          </li>';
-            }
-            ?>
-
-<?php
-            if ($_SESSION['ayuda'] == 1) {
-              echo '<li class="nav-item">
-                    <a href="../view/rrhh.php" class="nav-link active">
-                    <i class="nav-icon fas fa-columns"></i>
-                      <p>
-                        Ayuda 
-                      </p>
-                    </a>
-                    </li>';
-            }
-            ?>
-
-
-            
-         
-
 
           </ul>
         </nav>
