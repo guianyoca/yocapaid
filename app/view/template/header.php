@@ -142,6 +142,18 @@
                     </li>';
             }
             ?>
+          <?php
+            if ($_SESSION['escritorio'] == 1) {
+              echo '<li class="nav-item">
+                    <a href="../view/transacciones.php" class="nav-link active">
+                    <i class="nav-icon fas fa-columns"></i>
+                      <p>
+                        Transacciones
+                      </p>
+                    </a>
+                    </li>';
+            }
+            ?>
 
           </ul>
         </nav>
